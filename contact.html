@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contacts</title>
+</head>
+
+<body>
+  <h3>My contacts</h3>
+  <ol>
+    <li><a href="piyushbajpai685@gmail.com">Gmail</a></li>
+    <li><a href="https://www.codechef.com/users/piyushbajpai11">CodeChef</a></li>
+    <li><a href="https://www.hackerrank.com/piyushbajpai685">Hackerrank</a></li>
+  </ol>
+  <hr size="3" noshade>
+  <h3>Details</h3>
+  <form class="" action="index.html" method="post">
+    <table>
+      <tr>
+        <td><label>Your Name:</label></td>
+        <td><input type="name" name="" required min="5" max="10" size="10"><br></td>
+      </tr>
+      <tr>
+        <td><label>password: </label></td>
+        <td>  <input type="password" name="" value="" size="10"></td>
+      </tr>
+    </table>
+      <fieldset>
+      <legend>Gender:</legend>
+<input type="radio" name="" id="Male">
+<label for="Male">Male</label><br>
+
+<input type="radio" name="Gender" id="Female">
+<label for="Female">Female</label><br>
+
+<input type="radio" name="" id="Not say">
+<label for="Not say">Not say</label><br>
+
+</fieldset><br>
+<table>
+  <tr>
+    <td><label for="Board">Select your board:</label></td>
+    <td><input list="Boards" id="Board" name="Board" />
+    <datalist id="Boards">
+      <option value="C.B.S.E">
+      <option value="I.C.S.E">
+      <option value="U.P. Board">
+    </datalist><br>
+</td>
+  </tr>
+  <tr>
+    <td><label for="Games">Select your fav Sport:</label></td>
+    <td><select id="Games" name="">
+      <optgroup label="Indoor Games">
+        <option>Chess</option>
+        <option>Ludo</option>
+        <option>Snakes & Ladders</option>
+          </optgroup>
+      <optgroup label="OutDoor Games">
+        <option>Cricket</option>
+        <option>FootBall</option>
+        <option>Batminton</option>
+
+
+      </optgroup>
+
+    </select></td>
+  </tr>
+  <tr>
+    <td><label for="D.O.B">D.O.B</label></td>
+    <td><input type="date" name="D.O.B" value="D.O.B"><br></td>
+  </tr>
+  <tr>
+  <td>  <label for="email">Enter your email:</label></td>
+  <td><input type="email" id="email" name="email"></td>
+  </tr>
+  <tr>
+    <td><label for="myFile">Select My File:</label></td>
+    <td><input type="file" id="myfile" name="myfile"></td>
+  </tr>
+
+</table>
+<label >Capacity:</label>
+<input type="range" name="" value=""><br>
+<input type="submit" name="" value="submit">
+<input type="reset" name="" value="reset">
+
+    </form>
+</body>
+
+</html>
